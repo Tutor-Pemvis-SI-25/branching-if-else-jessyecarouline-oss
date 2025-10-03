@@ -10,6 +10,8 @@ public class T00 {
     public static void main(String[] args) {
         int bilangan1, bilangan2;
 
+        System.out.println("Masukkan bilangan pertama");
+        System.out.println("Masukkan bilangan kedua");
         bilangan1 = Integer.parseInt(input.nextLine());
         bilangan2 = Integer.parseInt(input.nextLine());
         if (bilangan1 % 2 == 0) {
@@ -48,3 +50,4 @@ public class T00 {
         }
     }
 }
+
